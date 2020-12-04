@@ -1,4 +1,4 @@
-#sql语法小知识
+# sql语法小知识
 
 + CREATE DATABASE xxx;创建数据库
 + 用USE xxx;来选择数据库
