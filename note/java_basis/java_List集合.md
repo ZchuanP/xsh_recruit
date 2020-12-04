@@ -65,7 +65,7 @@ java本身提供了for each循环帮我们使用Iterator遍历。所以上面的
 ---
 ### LIst和Array的转换
 * 通过toArray(T[])传入一个**相同数据类型**的Array，List会自动把元素传到Array中  
-#######
+####   
 	public class Main {
     	public static void main(String[] args) {
         	List<Integer> list = List.of(12, 34, 56);
