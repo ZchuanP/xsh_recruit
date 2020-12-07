@@ -49,6 +49,17 @@ import java.util.Map;``
 	}
 
 ---
+### 拓展功能
+* map提供map.KeySet()方法，返回值为Map中key值的集合；
+* map.entrySet()的返回值也是一个set集合，集合的类型为map.Entry;
+* Map.Entry是map声明的一个内部接口。它表示Map的一个实体（键值对），接口中包含getKey() ,getValue()方法；
+#######
+遍历map的一种方式  
+	for (Map.Entry<String, String> entry : map.entrySet()) {
+   		System.out.println("key= " + entry.getKey() + " and value= " + entry.getValue());
+  	}
+
+---
 ### 注意事项
 * 在map中重复放入键值对（key相同）不会出现问题，但一个key只能对应一个value。**新添加的key的value值会将第一个的value值覆盖掉**。所以**Map中不会存在重复的key**
 * Map不保证顺序，所以在遍历时顺序不一定是put的顺序，也不是按key的顺序排序。
