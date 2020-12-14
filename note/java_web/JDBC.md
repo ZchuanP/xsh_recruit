@@ -35,7 +35,7 @@
     ...
 	}
 
----
+--- 
 ### JDBC查询
 1. 通过Connection提供的createStatement()方法创建一个Statement对象，用于执行一个查询；
 2. 执行Statement对象提供的executeQuery("SELECT * FROM students")并传入SQL语句，执行查询并获得返回的结果集，使用ResultSet来引用这个结果集；
