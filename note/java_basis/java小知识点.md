@@ -21,3 +21,5 @@
 
 
 ### java 时间函数
++ System.nanoTime() 返回以毫微米记的当前时间数据
++ System.currentTimeMillis() 返回以毫秒记得当前时间数据

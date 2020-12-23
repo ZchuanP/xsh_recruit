@@ -180,11 +180,6 @@ public class MyArray {
     }
 
 
-    // »ùÊıÅÅĞò
-    public void base_sort(){
-
-    }
-
     public void print_array(){
         for (int j : this.array_sort) {
             System.out.print(j+" ");
